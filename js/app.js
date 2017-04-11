@@ -39,7 +39,7 @@ var updateDisplayedJoke = function () {
   if (RequestedJoke !== undefined) {
     jokeBox.innerHTML = '<p>' + RequestedJoke.setup + '</p><p>' + RequestedJoke.punchline + '</p>'
   } else {
-    jokeBox.innerHTML = ''
+    jokeBox.innerHTML = '<p>No matching joke found.</p>'
   }
 }
 
